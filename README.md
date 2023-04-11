@@ -22,7 +22,14 @@ Enter the path of the first folder (from root): /path/to/folder1
 Enter the path of the second folder (from root): /path/to/folder2
 Comparison results have been written to 20230411_154527_folder1_folder2.txt
 Do you want to delete the duplicates in one folder? [y/N]: y
-Enter 1 to delete duplicates in the first folder (/path/to/folder1), 2 for the second folder (/path/to/folder2), or 3 to exit: 1
+Enter 1 to delete duplicates in the first folder 
+(/path/to/folder1)
+
+Enter 2 to delete duplicates in the second folder 
+(/path/to/folder2)
+
+Enter 3 to exit
+1
 Deleted: /path/to/folder1/somefile.txt
 Deleted: /path/to/folder1/anotherfile.doc
 ```
