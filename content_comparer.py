@@ -52,7 +52,7 @@ def main():
         delete_choice = input("Do you want to delete the duplicates in one folder? [y/N]: ")
         if delete_choice.lower() == 'y':
             while True:
-                folder_choice = input(f"Enter 1 to delete duplicates in the first folder \n({folder1_path}) \n\nEnter 2 to delete duplicates in the second folder \n({folder2_path}) \n\nEnter 3 to exit: ")
+                folder_choice = input(f"Enter 1 to delete duplicates in the first folder \n({folder1_path}) \n\nEnter 2 to delete duplicates in the second folder \n({folder2_path}) \n\nEnter 3 to exit\n ")
                 if folder_choice == '1':
                     duplicates = {k: v for k, v in folder1_files.items() if k not in unique_files}
                     delete_duplicates(folder1_path, duplicates)
